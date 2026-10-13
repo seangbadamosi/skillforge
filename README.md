@@ -42,7 +42,7 @@ skillforge/
 
 ## Live Website
 
-[SkillForge Live Website](skillforge-amber.vercel.app)
+[SkillForge Live Website](https://skillforge-amber.vercel.app)
 
 ## GitHub Repository
 
