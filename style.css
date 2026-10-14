@@ -1,14 +1,35 @@
+/* global styles */
 *{
     margin: 0;
-    font-family: courier;
+    box-sizing: border-box;
 }
 
+body{
+    font-family: courier, monospace;
+    background-color: #f4f7fb;
+    color: #222222;
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* navigation styles */
 header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color:grey;
-    height : 50px;
+    background-color: #243b53;
+    padding: 16px 2px;
+}
+
+/* navigation hover effect styles */
+header a:hover{
+    color: #f0b429;
+    text-decoration: underline;
 }
 
 header > nav {
@@ -16,19 +37,13 @@ header > nav {
     gap: 40px;
 }
 
-header  a{
+header a{
     text-decoration: none;
     color: black;
 }
 
-/* i need a container */
-
 
 /* main section */
-
-main{
-    margin: 0 50px;
-}
 
 main h1, h2{
     margin: 10px 0;
@@ -38,8 +53,17 @@ main p{
     margin: 0 0 5px 0;
 }
 
+.card{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+    background-color: #ffffff;
+}
+
 /* footer section */
 
 footer{
-        margin: 10px 50px 0 50px;
+    margin: 10px 50px 0 50px;
+    padding: 20px;
+    border-top: 1px solid #cbd5e1;
 }
