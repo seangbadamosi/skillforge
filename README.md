@@ -1,4 +1,4 @@
-# skillforge
+# Skillforge
  A learning and career platform built progressively during my frontend development internship
 
 ## Project Overview
@@ -58,7 +58,7 @@ skillforge/
 
 ## GitHub Repository
 
-[SkillForge Github Repository](https://github.com/seangbadamosi/skillforge)
+[SkillForge GitHub Repository](https://github.com/seangbadamosi/skillforge)
 
 ## Current Status
 
