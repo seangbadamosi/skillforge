@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: courier;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:grey;
+    height : 50px;
+}
+
+header > nav {
+    display: flex;
+    gap: 40px;
+}
+
+header  a{
+    text-decoration: none;
+    color: black;
+}
+
+/* i need a container */
+
+
+/* main section */
+
+main{
+    margin: 0 50px;
+}
+
+main h1, h2{
+    margin: 10px 0;
+}
+
+main p{
+    margin: 0 0 5px 0;
+}
+
+/* footer section */
+
+footer{
+        margin: 10px 50px 0 50px;
+}
